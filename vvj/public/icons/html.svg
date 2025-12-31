@@ -1,0 +1,36 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="htmlOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e34f26;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f06529;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="htmlBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1572b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33a9dc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- HTML5 Shield Shape -->
+  <g transform="translate(8, 4)">
+    <path d="M0 0 L4.8 51.2 L24 56 L43.2 51.2 L48 0 Z" fill="url(#htmlOrange)"/>
+    
+    <!-- Inner HTML Structure -->
+    <path d="M24 8 L24 52 L39.6 48.8 L42.4 8 Z" fill="url(#htmlBlue)" opacity="0.8"/>
+    
+    <!-- HTML Text -->
+    <g fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="10">
+      <text x="24" y="20" text-anchor="middle">HTML</text>
+    </g>
+    
+    <!-- CSS Symbol -->
+    <g fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="8">
+      <text x="24" y="32" text-anchor="middle">CSS</text>
+    </g>
+    
+    <!-- Code Brackets -->
+    <g fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+      <path d="M12 40 L8 36 L12 32"/>
+      <path d="M36 32 L40 36 L36 40"/>
+    </g>
+  </g>
+</svg>

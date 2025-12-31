@@ -1,0 +1,35 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cppBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004482;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00599c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Hexagon -->
+  <g transform="translate(8, 8)">
+    <polygon points="24,0 36,7 36,21 24,28 12,21 12,7" fill="url(#cppBlue)" stroke="#ffffff" stroke-width="1"/>
+    
+    <!-- C Letter -->
+    <g fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold" font-size="12">
+      <path d="M16 8 Q12 8 12 14 Q12 20 16 20 Q18 20 18 18" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Plus Signs for ++ -->
+    <g fill="#ffffff" stroke="#ffffff" stroke-width="1.5">
+      <!-- First Plus -->
+      <line x1="24" y1="10" x2="24" y2="18"/>
+      <line x1="20" y1="14" x2="28" y2="14"/>
+      
+      <!-- Second Plus -->
+      <line x1="32" y1="10" x2="32" y2="18"/>
+      <line x1="28" y1="14" x2="36" y2="14"/>
+    </g>
+  </g>
+  
+  <!-- Decorative Code Brackets -->
+  <g fill="none" stroke="#004482" stroke-width="2" stroke-linecap="round">
+    <path d="M4 16 L8 16 L8 48 L4 48"/>
+    <path d="M60 16 L56 16 L56 48 L60 48"/>
+  </g>
+</svg>
